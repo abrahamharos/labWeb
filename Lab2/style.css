@@ -27,6 +27,7 @@ li {
 
 .menu {
     list-style: none;
+    margin-left: 7%;
 }
 
 address {
@@ -47,4 +48,10 @@ html {
 
 hr {
     border-top: 3px solid tomato;
+}
+
+#Experience, #Education, #Projects {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
 }
