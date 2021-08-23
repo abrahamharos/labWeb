@@ -1,0 +1,50 @@
+.profile-img {
+    width: 50%;
+}
+
+header {
+    width: 50%;
+    display: inline-block;
+}
+
+body {
+    background-color:mintcream;
+}
+
+p, h1, h2, h3, a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color:tomato;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style: none;
+}
+
+address {
+    text-align: center;
+    font-style: normal;
+    border-radius: 5%;
+    border-style: outset;
+    width: 50%;
+}
+
+.red {
+    color: indianred;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+hr {
+    border-top: 3px solid tomato;
+}
