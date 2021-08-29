@@ -32,7 +32,7 @@ header {
 }
 
 .product {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 1);
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid grey;
+  border-top: 1px solid rgba(129, 125, 125, 1);
 }
 
 .social {
@@ -80,12 +80,18 @@ footer {
 
   .product {
     width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 
   main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -94,5 +100,14 @@ footer {
   header {
     justify-content: center;
     flex-direction: row;
+  }
+
+  footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .product {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
